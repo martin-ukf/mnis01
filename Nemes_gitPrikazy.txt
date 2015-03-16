@@ -1,0 +1,26 @@
+git clone https://github.com/MichalNemes/mnis01.git
+cd mnis01
+git pull
+git checkout -b MNIS1401
+git push origin MNIS1401
+git add .
+git commit -m "Doplnene inicialky a nazov prace"
+git push
+git checkout master
+git merge MNIS1401
+git add .
+git commit 
+git push
+git checkout -b MNIS1402
+git push origin MNIS1402
+git add .
+git commit -m "Pridana anotacia"
+git push
+git checkout master
+git merge MNIS1402
+git add .
+git commit 
+git push
+git add Nemes_gitPrikazy.txt
+git commit -m "Pridany textovy subor s prikazmi "
+git push
