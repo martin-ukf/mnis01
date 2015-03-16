@@ -11,5 +11,6 @@
 * Znova uskutočnite commit so správou
 * Zlúčte vetvu do master
 * Pridajte textový súbor do master, v ktorom uvediete príkazy gitu, ktoré ste použili
+* Bonus: Naformátujte údaje v súbore zoznam_prac.xhtml pomocou css
 * Nahrajte súbor do vášho repozitáry na GitHube
 * Požiadajte o Pull Request súboru zoznam_prac.xhtml
