@@ -1,0 +1,18 @@
+git clone https://github.com/martin-ukf/mnis01.git
+git status
+git config --global user.email "10matus.d@gmail.com"
+git config --global user.name "Matus"
+git branch "MNIS0201"
+git branch
+git checkout MNIS0201
+git add zoznam_prac.xhtml
+git commit -m "Nazov BP"
+git rebase master
+git branch "MNIS0202"
+git branch
+git checkout MNIS0202
+git add zoznam_prac.xhtml
+git commit -m "Anotacia BP"
+git checkout master
+git status
+git merge MNIS0202
