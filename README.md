@@ -10,5 +10,6 @@
 * Doplňte do súboru zoznam_prac.html anotáciu práce
 * Znova uskutočnite commit so správou
 * Zlúčte vetvu do master
-* Nahrajte súbor do vášho repozitára na GitHube
-* Požiadajte o Pull Request
+* Pridajte textový súbor do master, v ktorom uvediete príkazy gitu, ktoré ste použili
+* Nahrajte súbor do vášho repozitáry na GitHube
+* Požiadajte o Pull Request súboru zoznam_prac.html
