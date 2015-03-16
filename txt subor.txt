@@ -1,0 +1,15 @@
+git checkout -b MINS2401
+git status
+git add .
+git status
+git commit -m "prva zmena"
+git checkout master
+git merge hotfix
+
+git checkout -b MINS2402
+git status
+git add .
+git status
+git commit -m "druha zmena"
+git checkout master
+git merge hotfix
