@@ -1,0 +1,31 @@
+cd /mnis01
+
+git status
+
+git config --global user.email
+
+git  clone https://github.com/MiroslavMazar/mnis01.git
+
+git add .
+
+git status
+
+git commit -m "mnis_uprava"
+
+git push origin master
+
+git add .
+
+git status
+
+git commit -m "mnis_uprava_anotacia"
+
+git push origin master
+
+touch prikaz.txt
+
+git add .
+
+git commit -m "prikaz"
+
+git push origin master
