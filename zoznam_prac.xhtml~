@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 To change this template, choose Tools | Templates
 and open the template in the editor.
@@ -28,14 +28,7 @@ and open the template in the editor.
                 <tr><td>MNIS13</td><td></td><td></td><td></td></tr>
                 <tr><td>MNIS14</td><td></td><td></td><td></td></tr>
                 <tr><td>MNIS15</td><td></td><td></td><td></td></tr>
-                <tr><td>MNIS16</td><td>JP</td><td>Ovládanie NXT robota prostredníctvom platformy Android</td><td>Robotické  modely postavené z dielov stavebnice Lego Mindstorms sú riadené programom uloženým v NXT kocke. Spustený program môže prostredníctvom bezdrôtovej technológie komunikovať s iným programom bežiacim na osobnom počítači alebo mobilnom zariadení. Ovládanie robota na diaľku zohráva v skutočných robotických misiách často rozhodujúcu úlohu. V prípade edukačnej robotiky je diaľkové ovládanie užitočné napr. pri popularizačných vzdelávacích aktivitách pred väčším publikom.
-Ciele bakalárskej práce:
-postaviť jednoduchý robotický model z Lega,
-vyvinúť vlastnú mobilnú aplikáciu pre platformu Android, ktorá umožní riadenie a monitorovanie činnosti robota na diaľku.
-Požiadavky na vedomosti a zručnosti študenta:
-záujem o mobilné technológie a programovanie v jazyku Java,
-schopnosť študovať z informačných zdrojov v anglickom jazyku,
-praktické zručnosti..</td></tr>
+                <tr><td>MNIS16</td><td></td><td></td><td></td></tr>
                 <tr><td>MNIS17</td><td></td><td></td><td></td></tr>
                 <tr><td>MNIS18</td><td></td><td></td><td></td></tr>
                 <tr><td>MNIS19</td><td></td><td></td><td></td></tr>
