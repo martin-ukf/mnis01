@@ -1,0 +1,43 @@
+cd mnis01
+
+git init
+
+git branch
+
+git branch MNIS0701
+
+git branch
+
+git checkout MNIS0701
+
+git branch
+
+git config --global user.name "MenoPriezvisko"
+
+git config --global user.email meno.priezvisko@gmail.com
+
+git add .
+
+git commit -m "Pridane inicialy a nazov prace"
+
+git push origin MNIS0701
+
+git checkout master
+
+git branch
+
+git merge MNIS0701
+
+git branch MNIS0702
+
+git checkout MNIS0702
+
+git branch
+
+git add .
+
+git commit -m "Pridana anotacia"
+
+git push origin MNIS0702
+
+git merge MNIS0702
