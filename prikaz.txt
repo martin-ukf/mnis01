@@ -1,0 +1,17 @@
+git clone https://github.com/janceees/mnis01.git
+git status
+git config --global user.email "jan.ondrus@student.ukf.sk"
+git branch "MNIS1501"
+git branch
+git checkout MNIS1501
+git add zoznam_prac.xhtml
+git commit -m "Inicialky a nazov"
+git checkout master
+git merge MNIS1501
+git branch "MNIS1502"
+git branch
+git checkout MNIS1502
+git add zoznam_prac.xhtml
+git commit -m "Anotacia"
+git checkout master
+git merge MNIS1502
