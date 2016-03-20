@@ -1,0 +1,26 @@
+git config --global user.name "ludovitkovac"
+git config --global user.name
+git config --global user.email "ludovit.kovac@student.ukf.sk"
+git config --global user.email
+git clone https://github.com/ludovitkovac/mnis01.git
+cd mnis01/
+git checkout -b MNIS4001
+pwd
+git status
+ls
+notepad zoznam_prac.xhtml
+git add .
+git commit -m "Pridanie mena a názvu"
+git checkout master
+git merge MNIS4001
+git checkout -b MNIS4002
+pwd
+git status
+ls
+notepad zoznam_prac.xhtml
+git add .
+git commit -m "Pridanie anotácie"
+git checkout master
+git status
+git merge MNIS4002
+git status
