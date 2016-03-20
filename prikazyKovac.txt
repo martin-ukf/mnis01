@@ -10,7 +10,7 @@ git status
 ls
 notepad zoznam_prac.xhtml
 git add .
-git commit -m "Pridanie mena a n·zvu"
+git commit -m "Pridanie mena a n√°zvu"
 git checkout master
 git merge MNIS4001
 git checkout -b MNIS4002
@@ -19,7 +19,7 @@ git status
 ls
 notepad zoznam_prac.xhtml
 git add .
-git commit -m "Pridanie anot·cie"
+git commit -m "Pridanie anot√°cie"
 git checkout master
 git status
 git merge MNIS4002
