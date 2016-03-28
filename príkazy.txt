@@ -1,0 +1,16 @@
+git init git
+git clone https://github.com/WEWA666/mnis01
+git branch MNIS2801
+git checkout MNIS2801
+git add zoznam_prac.xhtml
+git commit -m 'pridané iniciály mena a názov závereènej práce'
+git checkout master
+git merge MNIS2801
+git branch -d MNIS2801
+git branch MNIS2802
+git checkout MNIS2802
+git add zoznam_prac.xhtml
+git commit -m 'pridaná anotácia'
+git checkout master
+git merge MNIS2802
+git branch -d MNIS2802
