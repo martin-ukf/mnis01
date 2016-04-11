@@ -1,0 +1,7 @@
+git branch MNIS2401
+git checkout MNIS2401
+git commit -a -m "Komentar"
+git checkout master
+git merge MNIS2401
+git add gitCommand.txt
+git push
