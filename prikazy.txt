@@ -1,0 +1,10 @@
+git init
+git clone https://github.com/tessaractus/mnis01 repo
+cd repo
+git add zoznam_prac.xhtml
+git add .
+git commit -m "zaujimava sprava"
+git push
+git checkout repo
+git merge master
+git branch
