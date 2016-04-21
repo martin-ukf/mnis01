@@ -1,0 +1,15 @@
+git clone https://github.com/davidmichalik/mnis01
+git checkout -b MNIS1401
+vim zoznam_prac.xhtml
+git commit -a -m 'pridana praca do suboru zoznam_prac.xhtml'
+git checkout master
+git merge MNIS1401
+git checkout -b MNIS1402
+vim zoznam_prac.xhtml
+git commit -a -m 'pridana anotacia prace do suboru zoznam_prac.xhtml'
+git checkout master
+git merge MNIS1402
+vim prikazy.txt
+git add prikazy.txt
+git commit -a -m 'pridany subor prikazy.txt'
+git push origin master
