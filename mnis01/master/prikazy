@@ -1,0 +1,12 @@
+ git clone https://github.com/radoukf/mnis01.git
+ git add zoznam_prac.xhtml
+ git commit -m 'sprava'
+ git config --global user.name "radoukf"
+ git config --global user.email "radkonr@gmail.com"
+ git commit -m 'sprava'
+ git checkout master
+ git add zoznam_prac.xhtml
+ git commit
+ git merge zoznam_prac.xhtml
+ git pull origin master
+ git push origin zoznam_prac.xhtml
