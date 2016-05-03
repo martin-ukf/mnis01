@@ -1,0 +1,19 @@
+git https://github.com/mfilo2/mnis01.git
+git branch MNIS0201
+git checkout MNIS0201
+notepad zoznam_prac.xhtml
+git commit -a -m "pridany nazov prace"
+git checkout master
+git merge MNIS0201
+
+
+git branch MNIS0202
+git checkout MNIS0202
+notepad zoznam_prac.xhtml
+git commit -a -m "pridana anotacia"
+git checkout master
+git merge MNIS0202
+
+git add prikazy.txt
+git commit -a -m "pridane prikazy"
+git push origin master
