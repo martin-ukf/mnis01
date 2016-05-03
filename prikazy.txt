@@ -1,0 +1,24 @@
+git clone https://github.com/nicoolqa/mnis01
+git branch MNIS1901
+git checkout MNIS1901
+notepad zoznam_prac.xhtml
+git status
+git add zoznam_prac.xhtml
+git commit -m "pridanie inicialok, nazov BP"
+git checkout master
+git merge MNIS1901
+git branch -d MNIS1901
+git branch MNIS1902
+git checkout MNIS1902
+git branch
+notepad zoznam_prac.xhtml
+git add zoznam_prac.xhtml
+git commit -m "pridanie anotacie"
+git checkout master
+git branch --no-merged
+git merge MNIS1902
+git branch -d MNIS1902
+notepad prikazy.txt
+git add prikazy.txt
+git commit -m "pridanie prikazy.txt"
+git push
