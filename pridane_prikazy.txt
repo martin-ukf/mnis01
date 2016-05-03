@@ -5,6 +5,8 @@ notepad zoznam_prac.xhtml
 git status
 git add zoznam_prac.xhtml
 git commit -m "pridanie inicialov, nazov BP, pocet stran"
+git config --global user.name "Dafalko"
+git config --global user.email "kamencaydavid@gmail.com" 
 git checkout master
 git merge MNIS0701
 git branch -d MNIS0701
