@@ -1,6 +1,6 @@
  +git clone https://github.com/Peto-UKF/mnis01
- +git branch MNIS0701
- +git checkout MNIS0701
+ +git branch MNIS0301
+ +git checkout MNIS0301
  +notepad zoznam_prac.xhtml
  +git status
  +git add zoznam_prac.xhtml
