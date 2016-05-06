@@ -1,0 +1,13 @@
+ 1033  May/06 - 13:22:21 git clone https://github.com/nightNR/mnis01.git
+ 1037  May/06 - 13:24:58 git checkout -b MNIS3001
+ 1038  May/06 - 13:26:05 git commit -m "Pridane inicialy a nazov prace" -a
+ 1039  May/06 - 13:26:12 git checkout master
+ 1040  May/06 - 13:26:19 git merge MNIS3001 
+ 1041  May/06 - 13:26:38 git checkout -b MNIS3002
+ 1042  May/06 - 13:32:12 git commit -m "Pridana anotacia" -a
+ 1043  May/06 - 13:32:16 git checkout master
+ 1044  May/06 - 13:32:30 git merge MNIS3002 
+ 1045  May/06 - 13:50:18 git status
+ 1046  May/06 - 13:50:43 git commit -m "Naformatovane" -a
+ 1047  May/06 - 13:50:47 git push
+
