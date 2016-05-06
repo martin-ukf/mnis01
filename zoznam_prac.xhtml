@@ -7,12 +7,34 @@ and open the template in the editor.
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Zoznam záverečných prác</title>
+        <style>
+            table {
+                border: 1px solid black;
+                width: 800px;
+                margin: 0 auto;
+            }
+
+            table tr:nth-child(odd) {
+                background-color: #00ffff;
+            }
+
+            table tr:nth-child(even) {
+                background-color: #ffffff;
+            }
+
+            table tbody tr:hover {
+                background-color: #ababab;
+            }
+        </style>
     </head>
     <body>
         <div>
             <p>Pridajte informáciu o záverečnej práci</p>
             <table>
-                <tr><td>Projekt</td><td>Iniciály</td><td>Názov práce</td><td>Počet strán</td><td>Anotacia</td></tr>
+                <thead>
+                <tr style="font-weight: bold"><td>Projekt</td><td>Iniciály</td><td>Názov práce</td><td>Počet strán</td><td>Anotacia</td></tr>
+                </thead>
+                <tbody>
                 <tr><td>MNIS01</td><td></td><td></td><td></td><td></td></tr>
                 <tr><td>MNIS02</td><td></td><td></td><td></td><td></td></tr>
                 <tr><td>MNIS03</td><td></td><td></td><td></td><td></td></tr>
@@ -42,7 +64,7 @@ and open the template in the editor.
                 <tr><td>MNIS27</td><td></td><td></td><td></td><td></td></tr>
                 <tr><td>MNIS28</td><td></td><td></td><td></td><td></td></tr>
                 <tr><td>MNIS29</td><td></td><td></td><td></td><td></td></tr>
-                <tr><td>MNIS30</td><td>PB</td><td>System na on line publikovanie studijnych materialov a knih</td><td></td><td>Anotácia: Systémy pre publikovanie elektronických študijných materiálov a kníh umožňujú autorom publikovať svoje diela finančne nenáročným spôsobom so zachovaním informácie o čitateľoch, návštevnosti a s možnosťou priamej spätnej väzby.
+                <tr><td>MNIS30</td><td style="text-align: center;">PB</td><td>System na on line publikovanie studijnych materialov a knih</td><td></td><td>Anotácia: Systémy pre publikovanie elektronických študijných materiálov a kníh umožňujú autorom publikovať svoje diela finančne nenáročným spôsobom so zachovaním informácie o čitateľoch, návštevnosti a s možnosťou priamej spätnej väzby.
                     Cieľom práce je navrhnúť a vytvoriť webovú aplikáciu pre elektronické publikovanie publikácií, ktorá umožní autorom postupne zverejňovať jednotlivé kapitoly publikácií, sprístupňovať ich registrovaným čitateľom a získavať spätnú väzbu.
                     Požadované znalosti: znalosť programovacieho jazyka (php, Java a pod. )  </td></tr>
                 <tr><td>MNIS31</td><td></td><td></td><td></td><td></td></tr>
@@ -60,6 +82,7 @@ and open the template in the editor.
                 <tr><td>MNIS43</td><td></td><td></td><td></td><td></td></tr>
                 <tr><td>MNIS44</td><td></td><td></td><td></td><td></td></tr>
                 <tr><td>MNIS45</td><td></td><td></td><td></td><td></td></tr>
+                </tbody>
             </table>
 
         </div>
