@@ -1,0 +1,13 @@
+git clone https://github.com/zelenakovaz/mnis01.git
+git checkout -b mnis4901
+git commit -a -m "Vložené èíslo 49"
+git checkout master
+git pull
+git merge mnis4901
+git push origin master
+git checkout -b mnis4902
+git commit -a -m "pridany poèet stran"
+git checkout master
+git pull
+git merge mnis4901
+git push origin master
