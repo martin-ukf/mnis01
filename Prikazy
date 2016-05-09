@@ -1,0 +1,10 @@
+git clone
+git add
+git commit -m
+git checkout
+git branch
+git push -u
+git merge
+cd
+ls
+nano
