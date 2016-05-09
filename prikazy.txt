@@ -1,0 +1,8 @@
+git branch MNIS2701
+git checkout MNIS2701
+git commit -a -m "comment"
+git checkout master
+git merge MNIS2701
+git add prikazy.txt
+git commit -a -m "Pridanie prikazy"
+git push
