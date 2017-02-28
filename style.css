@@ -17,7 +17,8 @@ table {
     box-shadow: 0 3px 8px rgba(0, 0, 0, .2);
 }
 
-table tr > td {
+table thead th,
+table tbody td {
     padding: 3px 10px;
 }
 
@@ -39,6 +40,7 @@ table thead th {
     font-weight: bold;
     background: #0a47aa !important;
     text-shadow: 0 2px 0 #000;
+    text-align: left;
     color: #fff;
 }
 
