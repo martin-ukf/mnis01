@@ -3,13 +3,13 @@ git clone git@github.com:burisk/mnis01.git
 git checkout -b MNIS_Burian_01
 nano zoznam_prac.xhtml
 git add .
-git commit -m "Pridanie Buriana do zoznamu závereènıch prác"
+git commit -m "Pridanie Buriana do zoznamu zÃ¡vereÄnÃ½ch prÃ¡c"
 git checkout master
 git merge MNIS_Burian_01
 
 git checkout -b MNIS_Burian_02
 git add .
-git commit -m "Pridanie anotácie práce Burian-a"
+git commit -m "Pridanie anotÃ¡cie prÃ¡ce Burian-a"
 git checkout master
 git merge MNIS_Burian_02
 
@@ -18,12 +18,12 @@ nano Prikazy_Burian.txt
 --- recursive ... :D ---
 
 git add .
-git commit -m "Pridanie pouitıch príkazov"
+git commit -m "Pridanie pouÅ¾itÃ½ch prÃ­kazov"
 
 touch style.css
 touch zoznam_prac.xhtml
 
 git add .
-git commit -m "Naštılovanie tabu¾ky"
+git commit -m "NaÅ¡tÃ½lovanie tabuÄ¾ky"
 
 git push
