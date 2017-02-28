@@ -25,16 +25,16 @@ table tr:hover > td {
     background: #fffee5 !important;
 }
 
-table tr:not(:first-child) > td {
+table tbody td {
     font-size: 0.875em;
     vertical-align: top;
 }
 
-table tr:not(:first-child) > td:not(:last-child) {
+table tbody td:not(:last-child) {
     border-right: 1px solid #ddd;
 }
 
-table tr:first-child > td {
+table thead th {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     background: #0a47aa !important;
@@ -42,6 +42,6 @@ table tr:first-child > td {
     color: #fff;
 }
 
-table tr:nth-child(odd) > td {
+table tbody tr:nth-child(odd) > td {
     background: #eee;
 }
