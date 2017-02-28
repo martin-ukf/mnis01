@@ -42,6 +42,6 @@ table thead th {
     color: #fff;
 }
 
-table tbody tr:nth-child(odd) > td {
+table tbody tr:nth-child(even) > td {
     background: #eee;
 }
