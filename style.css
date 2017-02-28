@@ -10,8 +10,6 @@ body {
 }
 
 table {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     border-collapse: collapse;
     border: 1px solid #ccc;
     box-shadow: 0 3px 8px rgba(0, 0, 0, .2);
