@@ -1,0 +1,9 @@
+Pouzite prikazy:
+git add
+git branch MNIS4601
+git checkout MNIS4601
+git status
+git commit -m
+git checkout master
+git merge MNIS4601
+git branch -d
