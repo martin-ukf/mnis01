@@ -1,0 +1,6 @@
+$ git config --global user.name "svnucko"
+$ git config --global user.email samuel.vnucko@gmail.com
+$ cd 
+$ git init
+$ git clone https://github.com/svnucko/mnis01.git
+$ cd mnis01/
