@@ -1,2 +1,6 @@
 $ git clone https://github.com/Duchyyy/mnis01.git
-$ git add prikazy.txt
+$ git add prikazy.txt 
+$ git branch mnis01
+$ git checkout mnis01
+$ git add zoznam_prac.xhtml
+$ git commit -m "zmena príkazy"
