@@ -12,4 +12,4 @@ git add *
 git commit -m "bola upravena cast s anotaciou"
 git checkout master
 git merge MNIS02
-git push master
+git push origin master
