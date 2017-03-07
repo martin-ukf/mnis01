@@ -3,4 +3,7 @@ $ git add prikazy.txt
 $ git branch mnis01
 $ git checkout mnis01
 $ git add zoznam_prac.xhtml
+$ git branch mnis02
+$ git checkout mnis02
+$ git add prikazy.txt 
 $ git commit -m "zmena príkazy"
