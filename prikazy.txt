@@ -14,4 +14,7 @@ git add .
 git status 
 git commit -m "priadanie anotacie anotacie"
 git checkout master
+git merge MNIS02
+git add .
+git push
 
