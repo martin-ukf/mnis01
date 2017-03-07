@@ -13,7 +13,12 @@ $ git commit -m "pridal som anotaciu"
 $ git checkout master
 $ git merge mnis02
 $ git checkout MNIS01
+$ git add prikazy.txt
 $ git commit -m "pridal som príkazy"
+$ git add style.css
+$ git commit -m "pridanie style a  uprava"
+$ git push
+
 
 
 
