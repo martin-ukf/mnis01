@@ -1,0 +1,9 @@
+$ git config --global user.email "joshqe@gmail.com"
+$ git config --global user.name "jmotovsky",
+$ git status
+$ git clone https://github.com/jmotovsky/mnis01.git
+$ cd mnis01
+$ git branch MNIS01
+$ git checkout MNIS01
+
+
