@@ -1,0 +1,6 @@
+fork
+clone
+pull
+commit -m
+push
+
