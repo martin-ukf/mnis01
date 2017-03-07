@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Ubuntu:400,700&subset=latin-ext');
+
+html {
+    font-size: 1em;
+}
+
+body {
+    font-family: 'Droid Serif', serif;
+    padding: 0 10%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .2);
+}
+
+table thead th,
+table tbody td {
+    padding: 3px 10px;
+}
+
+table tr:hover > td {
+    background: #fffee5 !important;
+}
+
+table tbody td {
+    font-size: 0.875em;
+    vertical-align: top;
+}
+
+table tbody td:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+
+table thead th {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    background: #0a47aa !important;
+    text-shadow: 0 2px 0 #000;
+    text-align: left;
+    color: #fff;
+}
+
+table tbody tr:nth-child(even) > td {
+    background: #eee;
+}

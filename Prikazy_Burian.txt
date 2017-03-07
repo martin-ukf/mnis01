@@ -1,0 +1,29 @@
+git clone git@github.com:burisk/mnis01.git
+
+git checkout -b MNIS_Burian_01
+nano zoznam_prac.xhtml
+git add .
+git commit -m "Pridanie Buriana do zoznamu záverečných prác"
+git checkout master
+git merge MNIS_Burian_01
+
+git checkout -b MNIS_Burian_02
+git add .
+git commit -m "Pridanie anotácie práce Burian-a"
+git checkout master
+git merge MNIS_Burian_02
+
+touch Prikazy_Burian.txt
+nano Prikazy_Burian.txt
+--- recursive ... :D ---
+
+git add .
+git commit -m "Pridanie použitých príkazov"
+
+touch style.css
+touch zoznam_prac.xhtml
+
+git add .
+git commit -m "Naštýlovanie tabuľky"
+
+git push
