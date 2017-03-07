@@ -10,3 +10,5 @@ git checkout master
 git merge MNIS01
 git branch MNIS02
 git checkout MNIS02
+git add .
+git commit -m "pridany stlpec anotacia do zoznam_prac.xhtml"
