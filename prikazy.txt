@@ -1,0 +1,15 @@
+git clone https://github.com/pando7/mnis01.git
+git branch MNIS01
+git checkout MNIS01
+git status
+git add *
+git commit -m "Boli pridane vlastne informacie o inicialkach a nazve prace"
+git checkout master
+git merge MNIS01
+git branch MNIS02
+git checkout MNIS02
+git add *
+git commit -m "bola upravena cast s anotaciou"
+git checkout master
+git merge MNIS02
+git push origin master
