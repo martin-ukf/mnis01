@@ -1,0 +1,20 @@
+
+.description {
+  font-size: 20px;
+  max-width: 500px;
+}
+td {
+  width: 150px;
+}
+body {
+  background-color: #1FDA9A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner {
+  max-width: 500px;
+}
+.table--head {
+  font-weight: 600;
+}
