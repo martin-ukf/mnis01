@@ -1,0 +1,7 @@
+git branch MNIS1801
+git checkout MNIS1801
+git commit -a -m "message"
+git checkout master
+git merge MNIS1801
+git add gitCommand.txt
+git push
