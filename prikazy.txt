@@ -1,0 +1,15 @@
+git checkout -b MNIS2701
+git status
+git add .
+git status
+git commit -m ""
+git merge MNIS2401
+git checkout master
+
+git checkout -b MNIS2702
+git status
+git add .
+git status
+git commit -m ""
+git merge MNIS2402
+git checkout master
