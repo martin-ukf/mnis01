@@ -3,4 +3,6 @@ clone
 pull
 commit -m
 push
+branch
+merge
 
