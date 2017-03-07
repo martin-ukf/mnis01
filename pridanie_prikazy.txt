@@ -1,0 +1,20 @@
+ +git clone https://github.com/Marcelko325/mnis01
+ +git branch MNIS0501
+ +git checkout MNIS0501
+ +notepad zoznam_prac.xhtml
+ +git status
+ +git add zoznam_prac.xhtml
+ +git commit -m "pridanie inicialov, nazov prace, strany"
+ +git checkout master
+ +git merge MNIS0501
+ +git branch -d MNIS0501
+ +git branch MNIS0502
+ +git checkout MNIS0502
+ +notepad zoznam_prac.xhtml
+ +git add zoznam_prac.xhtml
+ +git commit -m "pridanie anotacie"
+ +git checkout master
+ +git branch -d MNIS0502
+ +notepad pridane_prikazy.txt
+ +git commit -m "pridanie prikazy vo forme txt"
+ +git push origin master 
