@@ -8,3 +8,7 @@ git checkout master
 git merge MNIS01
 git branch MNIS02
 git checkout MNIS02
+git add *
+git commit -m "bola upravena cast s anotaciou"
+git checkout master
+git merge MNIS02
