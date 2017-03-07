@@ -1,1 +1,12 @@
 git clone https://github.com/Webess/mnis01.git
+git add .
+git commit -m "pridane prikazy_liska.txt"
+git branch MNIS01
+git checkout MNIS01
+git status
+git add .
+git commit -m "pridana praca do zoznam_prac.xhtml"
+git checkout master
+git merge MNIS01
+git branch MNIS02
+git checkout MNIS02
