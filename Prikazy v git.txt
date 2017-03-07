@@ -1,9 +1,20 @@
 Pouzite prikazy:
-git add
-git branch MNIS4601
-git checkout MNIS4601
+git init
+git clone
+git add zoznam_prac.xhtml
+git branch MNIS01
+git checkout MNIS01
 git status
 git commit -m
 git checkout master
-git merge MNIS4601
+git merge MNIS01
 git branch -d
+git branch MNIS02
+git checkout MNIS02
+git add zoznam_prac.xhtml
+git add "Prikazy v git.txt"
+git commit -m
+git checkout master
+git merge MNIS02
+git branch -d
+git push
