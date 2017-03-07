@@ -1,0 +1,11 @@
+git config --global user.name <meno>
+git config --global user.email <e.mail>
+
+git clone <url>
+git status
+git add .
+git commit -m "<správa ku commitu>" 
+git push origin <vetva>
+git checkout -b <vetva>
+git merge <vetva>
+git branch -d 
