@@ -1,0 +1,26 @@
+0. pomocou tlacisla fork vytvoril kopiu v mojm repozitari
+1. git clone https://github.com/oporgramer/mnis01.git
+2. git branch MNIS1301
+3. git checkout MNIS1301
+upravil zoznam_prac.xhtml
+4. git status
+5. git add zoznam_prac.xhtml
+6. git commit -m "pridanie inicialov a nazov prace"
+7. git checkout master
+8. git merge MNIS1301
+9. git branch -d MNIS1301
+10. git branch MNIS1302
+11. git checkout MNIS1302
+12. git branch
+priadl anotaciu do zoznam_prac
+13. git add zoznam_prac.xhtml
+14. git commit -m "pridanie anotacie"
+15. git checkout master
+16. git branch --no-merged
+17. git merge MNIS1302
+18. git branch -d MNIS1302
+vytvoril som textovy doc prikazy
+19. git add prikazy.txt
+20. git commit -m "pridanie textoveho doc s prikazamy."
+21 git push
+22 pomocou talcidlov na github posleme pill-reguest 
