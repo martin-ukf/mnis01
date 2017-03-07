@@ -1,0 +1,8 @@
+fork
+git clone https://github.com/eaglesvk/mnis01.git
+git pull
+git commit -m
+git push
+git branch
+
+git merge
