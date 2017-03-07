@@ -7,3 +7,6 @@ $ git branch mnis02
 $ git checkout mnis02
 $ git add prikazy.txt 
 $ git commit -m "zmena príkazy"
+$ git add style.css
+$ git commit -m "pridany style"
+$ git push
