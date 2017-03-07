@@ -1,0 +1,5 @@
+git config --global user.name "lucia58242"
+git config --global user.email z.lucia58242@gmail.com
+git clone https://github.com/lucia58242/mnis01.git
+cd mnis01
+
