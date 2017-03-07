@@ -1,0 +1,12 @@
+$ git config --global user.name 
+$ git config --global user.email 
+$ git init <directory>
+$ git status
+$ git log
+$ git commit -m "msg"
+$ git push
+$ git add
+$ git clone url
+$ git branch
+$ git merge
+$ git checkout 
