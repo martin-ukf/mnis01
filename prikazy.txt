@@ -1,0 +1,20 @@
+git clone https://github.com/mandro177/mnis01.git
+git add .
+git commit -m " pridanie prikazov prikazy.txt"
+git branch MNIS01
+git checkout MNIS01
+git add .
+git status
+git commit -m "zmena zoznam_prac.xhtml"
+git checkout master
+git merge MNIS01
+git branch MNIS02
+git checkout MNIS02
+git add .
+git status 
+git commit -m "priadanie anotacie anotacie"
+git checkout master
+git merge MNIS02
+git add .
+git push
+
