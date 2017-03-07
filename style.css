@@ -1,0 +1,14 @@
+.table-head{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center
+}
+.table-head td{
+    text-align: center;
+    padding:0 15px 0 15px;
+}
+.odstavec{
+    padding: 15px;
+    color: #444;
+}
