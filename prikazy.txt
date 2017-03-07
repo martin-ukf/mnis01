@@ -1,0 +1,13 @@
+fork
+git clone https://github.com/eaglesvk/mnis01.git
+git pull
+git commit -m
+git push
+git branch
+git merge MNIS01
+git commit -m "Pridana anotacia"
+git merge master
+git branch MNIS02
+git commit -m "text anotacie"
+git push
+git checkout master
