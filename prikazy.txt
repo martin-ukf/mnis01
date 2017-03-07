@@ -4,3 +4,7 @@ git checkout MNIS01
 git status
 git add *
 git commit -m "Boli pridane vlastne informacie o inicialkach a nazve prace"
+git checkout master
+git merge MNIS01
+git branch MNIS02
+git checkout MNIS02
