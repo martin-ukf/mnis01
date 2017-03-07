@@ -1,0 +1,22 @@
+git clone https://github.com/Dafalko/mnis01
+git branch MNIS0701
+git checkout MNIS0701
+notepad zoznam_prac.xhtml
+git status
+git add zoznam_prac.xhtml
+git commit -m "pridanie inicialov, nazov BP, pocet stran"
+git config --global user.name "Dafalko"
+git config --global user.email "kamencaydavid@gmail.com" 
+git checkout master
+git merge MNIS0701
+git branch -d MNIS0701
+git branch MNIS0702
+git checkout MNIS0702
+notepad zoznam_prac.xhtml
+git add zoznam_prac.xhtml
+git commit -m "pridanie anotacie"
+git checkout master
+git branch -d MNIS0702
+notepad pridane_prikazy.txt
+git commit -m "pridanie prikazy vo forme txt"
+git push origin master
