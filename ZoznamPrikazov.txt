@@ -1,0 +1,8 @@
+cd D/GIT/Roman
+git clone https://github.com/RomanKrnac94/mnis01.git 
+git branch
+gir merge
+git checkout master 
+git add 
+git checkout
+git commit 
