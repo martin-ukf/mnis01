@@ -1,0 +1,23 @@
+git config --global user.name "MarekKrissak"
+git config --global user.email "marek.krissak@student.ukf.sk"
+git clone https://github.com/MarekKrissak/mnis01.git
+git branch
+git branch MNIS0801
+git checkout MNIS0801
+gedit zoznam_prac.xhtml
+git add zoznam_prac.xhtml
+git commit -m "Pridane inicialy a nazov prace"
+git push origin MNIS0801
+git checkout master
+git branch
+git merge MNIS0801
+
+git branch MNIS0802
+git checkout MNIS0802
+gedit zoznam_prac.xhtml
+git add zoznam_prac.xhtml
+git commit -m "Pridana anotacia"
+git push origin MNIS0802
+git checkout master
+git merge MNIS0802
+
