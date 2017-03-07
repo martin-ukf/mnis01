@@ -5,4 +5,5 @@
 * git checkout
 * git add *
 * git commit -m "sprava"
-* git merge 
+* git merge
+* git push
