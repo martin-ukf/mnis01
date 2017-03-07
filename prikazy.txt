@@ -1,0 +1,2 @@
+$ git clone https://github.com/Duchyyy/mnis01.git
+$ git add prikazy.txt
