@@ -1,0 +1,12 @@
+fork
+git clone https://github.com/martin-ukf/mnis01.git
+git branch MNIS01
+git checkout MNIS01
+git add .
+git commit -m
+git merge master
+git branch MNIS02
+git add .
+git commit -m
+git merge master
+git push origin master 
