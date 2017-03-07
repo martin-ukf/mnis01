@@ -1,0 +1,8 @@
+Použité príkazy: 
+
+git add
+git commit -m 'popis commitu'
+git push
+git status
+dir
+git clone https://github.com/waldemarsvk/mnis01.git  
