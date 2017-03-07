@@ -1,0 +1,14 @@
+Prikazy
+git config
+git config --global user.name "RadoslavCoka"
+git config --global user.email rd.coka@outlook.com
+git clone https://github.com/RadoslavCoka/mnis01.git
+cd
+cd master
+cd mnis01
+pwd
+git status
+git add .
+git status
+git commit -m "pridaná práca"
+git push origin master
