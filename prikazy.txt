@@ -1,2 +1,19 @@
 $ git clone https://github.com/Duchyyy/mnis01.git
 $ git add prikazy.txt
+$ git branch MNIS01
+$ git checkout MNIS01
+$ git add zoznam_prac.xhtml
+$ git status
+$ git commit -m "zmena v zoznam_prac"
+$ git  checkout master
+$ git merge mnis01
+$ git branch mnis02
+$ git checkout mnis02
+$ git commit -m "pridal som anotaciu" 
+$ git checkout master
+$ git merge mnis02
+$ git checkout MNIS01
+$ git commit -m "pridal som príkazy"
+
+
+
