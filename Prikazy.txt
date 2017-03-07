@@ -1,0 +1,18 @@
+git init
+git clone
+git cd mnis01
+git add zoznam_prac.xhtml
+git add.
+git status
+git commit -m "update"
+git commit -m "update"
+git add.
+git commit -m "update"
+git checkout -b mnis01
+git add Zoznam_prac.xhtml
+git commit -m "update"
+git commit -a -m "update"
+git status
+git checkout master
+git merge mnis01
+git push
