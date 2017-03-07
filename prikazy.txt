@@ -1,0 +1,4 @@
+git checkout -b nazov_noveho_branch
+git merge nazov_brach
+git commit -a -m "poznamka"
+git clone url_repozitara
