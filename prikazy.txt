@@ -1,0 +1,4 @@
+git checkout -b MNIS1801
+git merge MNIS1801
+git commit -a -m "sprava"
+git clone url
