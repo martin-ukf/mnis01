@@ -1,0 +1,20 @@
+ +git clone https://github.com/Peto-UKF/mnis01
+ +git branch MNIS0301
+ +git checkout MNIS0301
+ +notepad zoznam_prac.xhtml
+ +git status
+ +git add zoznam_prac.xhtml
+ +git commit -m "inicialy, nazov bakalarskej prace, strany"
+ +git checkout master
+ +git merge MNIS0301
+ +git branch -d MNIS0301
+ +git branch MNIS0302
+ +git checkout MNIS0302
+ +notepad zoznam_prac.xhtml
+ +git add zoznam_prac.xhtml
+ +git commit -m "pridanie anotacie"
+ +git checkout master
+ +git branch -d MNIS0302
+ +notepad prikazy.txt
+ +git commit -m "pridanie prikazy vo forme txt"
+ +git push origin master
