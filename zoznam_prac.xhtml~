@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 To change this template, choose Tools | Templates
 and open the template in the editor.
@@ -12,7 +12,7 @@ and open the template in the editor.
         <div>
             <p>Pridajte informáciu o záverečnej práci</p>
             <table>
-                <tr><td>Projekt</td><td>Iniciály</td><td>Názov práce</td><td>Počet strán</td></tr>
+                <tr><td>Projekt</td><td>Iniciály</td><td>Názov práce</td><td>Anotácia</td></tr>
                 <tr><td>MNIS01</td><td></td><td></td><td></td></tr>
                 <tr><td>MNIS02</td><td></td><td></td><td></td></tr>
                 <tr><td>MNIS03</td><td></td><td></td><td></td></tr>
@@ -20,7 +20,7 @@ and open the template in the editor.
                 <tr><td>MNIS05</td><td></td><td></td><td></td></tr>
                 <tr><td>MNIS06</td><td></td><td></td><td></td></tr>
                 <tr><td>MNIS07</td><td></td><td></td><td></td></tr>
-                <tr><td>MNIS08</td><td>MK</td><td>Moderné techniky priestorového modelovania</td><td>Popis možností využitia open-source nástrojov pri 3D modelovaní a následnom použití vytvorených modelov v aplikácii.</td></tr>
+                <tr><td>MNIS08</td><td>MK</td><td>Moderné techniky priestorového modelovania</td><td></td></tr>
                 <tr><td>MNIS09</td><td></td><td></td><td></td></tr>
                 <tr><td>MNIS10</td><td></td><td></td><td></td></tr>
                 <tr><td>MNIS11</td><td></td><td></td><td></td></tr>
@@ -45,19 +45,7 @@ and open the template in the editor.
                 <tr><td>MNIS30</td><td></td><td></td><td></td></tr>
                 <tr><td>MNIS31</td><td></td><td></td><td></td></tr>
                 <tr><td>MNIS32</td><td></td><td></td><td></td></tr>
-                <tr><td>MNIS33</td><td></td><td></td><td></td></tr>
-                <tr><td>MNIS34</td><td></td><td></td><td></td></tr>
-                <tr><td>MNIS35</td><td></td><td></td><td></td></tr>
-                <tr><td>MNIS36</td><td></td><td></td><td></td></tr>
-                <tr><td>MNIS37</td><td></td><td></td><td></td></tr>
-                <tr><td>MNIS38</td><td></td><td></td><td></td></tr>
-                <tr><td>MNIS39</td><td></td><td></td><td></td></tr>
-                <tr><td>MNIS40</td><td></td><td></td><td></td></tr>
-                <tr><td>MNIS41</td><td></td><td></td><td></td></tr>
-                <tr><td>MNIS42</td><td></td><td></td><td></td></tr>
-                <tr><td>MNIS43</td><td></td><td></td><td></td></tr>
-                <tr><td>MNIS44</td><td></td><td></td><td></td></tr>
-                <tr><td>MNIS45</td><td></td><td></td><td></td></tr>
+
             </table>
 
         </div>
