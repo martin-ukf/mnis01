@@ -1,0 +1,7 @@
+Git config --global user.name
+Git config --global user.email
+git clone https://github.com/Kosik-ukf/mnis01.git
+cd mnis01
+notepad
+git status
+
