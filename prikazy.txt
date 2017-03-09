@@ -1,0 +1,25 @@
+git config --global user.name Andrej26
+git config --global user.email Andrej26@users.noreply.github.com
+git init
+git clone "cesta k suboru"
+cd mnis01
+git checkout -b MNIS01
+notepad zoznam_prac.xhtml
+git add .
+git status
+git commit -m "pridanie inicialov a nazvu bak prace"
+git checkout master
+git merge MNIS01
+git checkout -b MNIS02
+notepad zoznam_prac.xhtml
+git add .
+git status
+git commit -m "pridanie anotacie"
+git checkout master
+git merge MNIS02
+notepad
+git add .
+git status
+git commit -m "pridanie prikazov"
+git push origin master
+git pull
