@@ -1,0 +1,14 @@
+git add prikazy.txt
+git commit -m "prikazy"
+git push
+git checkout -b MNIS01
+git commit -m "pridany riadok do zoznamu prac"
+git push
+git checkout master
+git merge MNIS01
+git checkout -b MNIS02
+git commit -m "pridany stlpec anotacia + pridana anotacia do zoznamu prac"
+git push
+git checkout master
+git merge MNIS02
+git add style.css
