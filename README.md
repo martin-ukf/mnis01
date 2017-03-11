@@ -15,3 +15,4 @@
    * Nahrajte súbor do vášho repozitára na GitHube
    * Požiadajte o Pull Request súboru zoznam_prac.xhtml
 bohovo
+a zase dalsi
