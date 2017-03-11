@@ -1,4 +1,4 @@
-
+﻿
 ## Odovzdanie úlohy Git a GitHub
    * Vytvorte Fork z repozitára https://github.com/martin-ukf/mnis01
    * Vyklonujte repozitár na svoj lokálny počítač
@@ -14,3 +14,4 @@
    * Naformátujte údaje v súbore zoznam_prac.xhtml pomocou css
    * Nahrajte súbor do vášho repozitára na GitHube
    * Požiadajte o Pull Request súboru zoznam_prac.xhtml
+nmnkjhugh
