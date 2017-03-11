@@ -14,3 +14,5 @@
    * Naformátujte údaje v súbore zoznam_prac.xhtml pomocou css
    * Nahrajte súbor do vášho repozitára na GitHube
    * Požiadajte o Pull Request súboru zoznam_prac.xhtml
+bohovo
+a zase dalsi
