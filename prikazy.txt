@@ -5,4 +5,10 @@ git add zoznam_prac.xhtml
 git commit -m "sprava"
 git checkout master
 git merge MNIS01
+git branch MNIS02
+git checkout MNIS02
+git add zoznam_prac.xhtml
+git commit -m "sprava"
+git checkout master
+git merge MNIS02
 git push
