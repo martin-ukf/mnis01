@@ -1,0 +1,80 @@
+admin@OIT05 MINGW64 ~
+$ git clone https://github.com/ceckoo/mnis01
+Cloning into 'mnis01'...
+remote: Counting objects: 57, done.
+remote: Total 57 (delta 0), reused 0 (delta 0), pack-reused 57
+Unpacking objects: 100% (57/57), done.
+
+admin@OIT05 MINGW64 ~
+$ cd mnis01
+
+admin@OIT05 MINGW64 ~/mnis01 (master)
+$ git branch mnis01
+
+admin@OIT05 MINGW64 ~/mnis01 (master)
+$ git checkout mnis01
+Switched to branch 'mnis01'
+
+admin@OIT05 MINGW64 ~/mnis01 (mnis01)
+$ git add .
+
+admin@OIT05 MINGW64 ~/mnis01 (mnis01)
+$ git commit -m "pridanie udajov"
+[mnis01 eb3567f] pridanie udajov
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+ create mode 100644 prikazy.txt
+
+admin@OIT05 MINGW64 ~/mnis01 (mnis01)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+
+admin@OIT05 MINGW64 ~/mnis01 (master)
+$ git merge mnis01
+Updating baa8079..eb3567f
+Fast-forward
+ prikazy.txt       | 1 +
+ zoznam_prac.xhtml | 4 ++--
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+ create mode 100644 prikazy.txt
+
+admin@OIT05 MINGW64 ~/mnis01 (master)
+$ git branch mnis02
+
+admin@OIT05 MINGW64 ~/mnis01 (master)
+$ git checkout mnis02
+Switched to branch 'mnis02'
+
+admin@OIT05 MINGW64 ~/mnis01 (mnis02)
+$ git add .
+
+admin@OIT05 MINGW64 ~/mnis01 (mnis02)
+$ git commit -m "anotacia"
+[mnis02 51fca1f] anotacia
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+admin@OIT05 MINGW64 ~/mnis01 (mnis02)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+admin@OIT05 MINGW64 ~/mnis01 (master)
+$ git merge mnis02
+Updating eb3567f..51fca1f
+Fast-forward
+ zoznam_prac.xhtml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+admin@OIT05 MINGW64 ~/mnis01 (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com/': ceckoo
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 678 bytes | 0 bytes/s, done.
+Total 7 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 1 local objects.
+To https://github.com/ceckoo/mnis01
+   baa8079..51fca1f  master -> master
