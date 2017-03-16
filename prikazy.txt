@@ -1,0 +1,5 @@
+git init
+git config --global user.name mvelcicky
+git config --global user.email mvelcicky@users.noreply.github.com
+git status
+git clone https://github.com/mvelcicky/mnis01.git
