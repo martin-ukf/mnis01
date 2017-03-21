@@ -1,0 +1,3 @@
+https://github.com/JanDanco/mnis01.git
+git branch MNIS01
+git checkout MNIS01
