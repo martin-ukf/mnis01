@@ -4,3 +4,7 @@ git checkout MNIS01
 git add *
 git push MNIS01
 git push --set-upstream origin MNIS01
+git commit -m ""
+git push
+git checkout master
+
