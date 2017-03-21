@@ -7,3 +7,11 @@ git push --set-upstream origin MNIS01
 git commit -m
 git push
 git checkuot master
+git branch MNIS02
+git checkout MNIS02
+git add *
+git push MNIS01
+git push --set-upstream origin MNIS02
+git commit -m
+git push
+git checkuot master
