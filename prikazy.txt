@@ -1,0 +1,6 @@
+git clone https://github.com/eaglesvk/mnis01.git
+git branch MNIS01
+git checkout MNIS01
+git add *
+git push MNIS01
+git push --set-upstream origin MNIS01
