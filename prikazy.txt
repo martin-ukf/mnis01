@@ -5,7 +5,14 @@ git commit -m "pridanie prace"
 git push origin MNIS01
 git checkout master
 git merge MNIS01
+git add .
+git commit -m "merge MNIS01 branch"
 git push origin master
 git checkout -b MNIS02
 git add .
 git push origin MNIS02
+git checkout master
+git merge MNIS02
+git add .
+git commit -m "merge MNIS02 branch"
+git push origin master
