@@ -1,0 +1,5 @@
+git clone https://github.com/mkoczka/mnis01.git
+git checkout -b MNIS01
+git add .
+git commit -m "pridanie prace"
+git push origin MNIS01
