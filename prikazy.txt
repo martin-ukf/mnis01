@@ -16,3 +16,7 @@ git merge MNIS02
 git add .
 git commit -m "merge MNIS02 branch"
 git push origin master
+
+git add .
+git commit -m "added css styles"
+git push origin master
