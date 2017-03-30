@@ -1,0 +1,22 @@
+$ git config --global user.name mberkes
+$ git config --global user.email mberkes@users.noreply.github.com
+$ cd
+$ git init
+$ git clone https://github.com/mberkes/mnis01.git
+$ cd mnis01/
+$ git status
+$ git commit -a
+$ git add prikazy.txt
+$ git commit -a
+$ git branch MNIS01
+$ git add .
+$ git commit -m 'uprava zoznamu prac'
+$ git checkout master
+$ git merge MNIS01
+$ git branch MNIS02
+$ git checkout MNIS02
+$ git add .
+$ git commit -m 'pridanie anotacie'
+$ git checkout master
+$ git merge MNIS02
+
