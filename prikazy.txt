@@ -19,6 +19,6 @@ $ git commit -m 'pridanie anotacie'
 $ git checkout master
 $ git merge MNIS02
 $ git add .
-$ git commit -m 'pridanie anotacie'
+$ git commit -m 'css uprava'
 $ git push origin master
 
