@@ -2,3 +2,5 @@ git config --global user.name  "Meno"
 git config --global user.email "email"
 git clone https://github.com/EllieFox/mnis01.git
 git status
+git add
+git commit "pridanie prikazov"
