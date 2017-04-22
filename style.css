@@ -1,6 +1,12 @@
 body {
 	text-align: center;
 }
+<<<<<<< HEAD
 table {
 	margin: 0 auto;
+=======
+table, th, td {
+	border: 3px solid yellow;
+	text-align: center;
+>>>>>>> refs/remotes/origin/mnis01
 }
