@@ -1,4 +1,17 @@
 $ git clone https://github.com/Duchyyy/mnis01.git
+<<<<<<< HEAD
+$ git add prikazy.txt 
+$ git branch mnis01
+$ git checkout mnis01
+$ git add zoznam_prac.xhtml
+$ git branch mnis02
+$ git checkout mnis02
+$ git add prikazy.txt 
+$ git commit -m "zmena príkazy"
+$ git add style.css
+$ git commit -m "pridany style"
+$ git push
+=======
 $ git add prikazy.txt
 $ git branch MNIS01
 $ git checkout MNIS01
@@ -22,3 +35,4 @@ $ git push
 
 
 
+>>>>>>> refs/remotes/origin/mnis01
