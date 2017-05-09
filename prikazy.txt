@@ -1,0 +1,9 @@
+git init
+git clone https://github.com/kamikazenb/mnis01.git
+git add .
+git commit
+git config --global alias.lol "log --all --graph --decorate --online"
+git lol
+cd old
+git add .
+git commit 
