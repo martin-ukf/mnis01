@@ -14,4 +14,14 @@
 8)  kontrola branch-ov (vetiev) 
 9)  git branch MNIS01 (vytvorenie novej vetvy)
 10) git checkout MNIS01 (prepnutie do danej vetvy)
-11) .......
+
+
+		 
+
+11) git add  .... 
+12) git commit -m '......'
+13) git status
+14) git checkout master
+15) git merge MNIS01
+
+16) git checkout -b MNIS02 
