@@ -25,3 +25,8 @@
 15) git merge MNIS01
 
 16) git checkout -b MNIS02 
+17) git status
+18) git add .....
+19) git commit -m '....'
+20) git checkout master
+21) git merge MNIS02
