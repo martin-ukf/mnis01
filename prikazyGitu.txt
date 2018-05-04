@@ -1,0 +1,32 @@
+0) spravil som fork na githube.
+
+1) git clone https://github.com/PatrikGit1985/mnis01.git
+2) ls (v mojom cielovom priecinku na mojom PC doma)
+3) cd na mnis01 (prepnutie do cieloveho adresara 'mnis01' )
+4) git status (po vytvoreni prikazyGitu.txt)
+5) git add prikazyGitu.txt 
+6) git diff --staged (pozrel som si co je v staged area)
+
+
+			- - ideme dalej upravovat - - 
+
+
+8)  kontrola branch-ov (vetiev) 
+9)  git branch MNIS01 (vytvorenie novej vetvy)
+10) git checkout MNIS01 (prepnutie do danej vetvy)
+
+
+		 
+
+11) git add  .... 
+12) git commit -m '......'
+13) git status
+14) git checkout master
+15) git merge MNIS01
+
+16) git checkout -b MNIS02 
+17) git status
+18) git add .....
+19) git commit -m '....'
+20) git checkout master
+21) git merge MNIS02
